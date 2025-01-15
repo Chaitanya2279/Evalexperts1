@@ -1,0 +1,112 @@
+/* Ensure the root element centers the content and has max-width */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Style for the logo */
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Animation for the logo */
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Style for the card */
+.card {
+  padding: 2em;
+}
+
+/* Style for the docs link */
+.read-the-docs {
+  color: #888;
+}
+
+/* General spacing for span elements */
+span {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* Title styling */
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Navbar styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f47c3a;
+  font-size: 20px;
+  padding: 0.5rem 1rem; /* Ensure padding to give some spacing */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Style for link buttons in navbar */
+.navbar .link-button {
+  background: none;
+  border: none;
+  color: inherit; /* or specify a color */
+  padding: 0.5rem;
+  cursor: pointer;
+  font: inherit; /* match the font style */
+}
+
+/* Hover effect for link buttons */
+.navbar .link-button:hover {
+  text-decoration: underline;
+}
+
+/* Heading style */
+h3 {
+  margin-left: 10px;
+  text-align: center;
+} 
+
+/* Flex container for management section */
+.mgmt {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Ensure the body has no overflow */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

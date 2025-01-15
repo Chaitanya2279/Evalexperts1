@@ -1,0 +1,35 @@
+.courseButton {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../assets/4964560.jpg');
+    background-size: cover;
+  }
+  
+  .courseTable {
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+  
+  .courseTable th, .courseTable td {
+    padding: 8px;
+    text-align: left; /* Adjust as needed */
+  }
+  
+  th.first, td.first {
+    width: 120px;
+  }
+  
+  th.second, td.second {
+    width: 200px;
+  }
+  
+  th.third, td.third {
+    width: 120px;
+  }
+
+  .modalStyle {
+    overflow: scroll;
+  }

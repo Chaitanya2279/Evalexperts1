@@ -1,0 +1,124 @@
+.wrapper {
+    position: relative;
+    width: 420px; /* Adjust width as needed */
+    height: auto; /* Set height to auto to accommodate content */
+    background: black;
+    border-radius: 10px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px; /* Add padding to create space inside the box */
+}
+
+.form-box {
+    width: 100%;
+    padding: 40px; /* You can adjust this padding to increase space */
+    box-sizing: border-box; /* Ensures padding is included in width/height calculations */
+}
+
+form h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+form .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .1);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color: #fff;
+}
+
+.input-box .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    translate: 0 -50%;
+    font-size: 16px;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}
+
+.forgot a {
+    color: #FF6600;
+    text-decoration: none;
+}
+
+.forgot a:hover {
+    text-decoration: underline;
+}
+
+form button {
+    width: 100%;
+    height: 45px;
+    background: #FF6600;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+form .need-assistance {
+    font-size: 14.5px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.need-assistance p a {
+    color: #FF6600;
+    text-decoration: none;
+}
+
+.need-assistance p a:hover {
+    text-decoration: underline;
+}
+
+.change-password-text {
+    color: #FF6600; /* Original color */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-align: center; /* Align text to the right */
+    margin-top: 10px; /* Margin above the text */
+    text-decoration: none; /* No underline by default */
+}
+
+.change-password-text:hover {
+    color: white; /* Change color to white on hover */
+    text-decoration: underline; /* Underline on hover */
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}

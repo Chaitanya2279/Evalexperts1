@@ -1,0 +1,64 @@
+.evalButtons Button {
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 200px;
+    height: 200px;
+    background-image: url('../assets/5599047.jpg');
+    background-size: cover;
+    color: whitesmoke;
+}
+
+.evalButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.viewEval {
+    width: 100%;
+}
+
+
+.courses-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.course-modal {
+    background-color: grey;
+    color: black;
+    width: 48%;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.course-modal:hover {
+    background-color: darkgrey;
+}
+
+.modal-lg {
+    max-width: 100%;
+}
+
+/* Add this CSS to your Evaluation.css file */
+
+.modal-lg-custom {
+    max-width: 90%; /* Adjust width as needed */
+    width: 90%; /* Adjust width as needed */
+  }
+  
+  .modal-body-custom {
+    overflow-x: auto; /* Add horizontal scrolling if the content overflows */
+    padding: 0 20px; /* Optional padding adjustments */
+  }
+  
+  .custom-table {
+    width: 100%; /* Ensure table takes full modal width */
+    table-layout: auto; /* Adjust columns based on content */
+  }
+  
+
